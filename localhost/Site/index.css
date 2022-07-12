@@ -1,0 +1,259 @@
+html body{
+	width: 100%;
+	/*background-color: black;*/
+}
+*{
+	margin:0; /*Отступ сверху уменьшили*/
+	padding:0;
+}
+header img{ /*--------- header ------------*/
+	float: right;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+header div{
+	background-color: white;
+}
+
+h1{
+	text-align:center;
+	font: italic 1.2em "Fira Sans", serif;
+	font-size: 50px;
+}
+.bigname{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+.listgame li{
+	display: inline-block;
+}
+.listgame img{
+	padding:10px;
+	
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 10px; 
+	grid-row-gap: 10px;
+}
+.grid_item{
+	justify-content: center;
+	align-items: center;
+	float:left;
+}
+.product{ /*--------------- Product --------------*/
+	background-color:black;
+	width: 100%;
+}
+.scale{
+	transition: 0.5s;
+}
+.scale:hover{
+	transform: scale(1.1);
+}
+#Scale{
+	transition: 0.5s;
+}
+#Scale:hover{
+	transform: scale(1.1);
+}
+#knop{
+	width:150px;
+	background-color:black;
+	border: 1px solid white;
+	border-radius: 5px;
+	color:white;
+}
+#knop:hover{
+	background-color:white;
+	color: black;
+	border: 1px solid black;
+}
+/*-\/--нет в наличии-\/--*/
+#knopn{
+	width:150px;
+	background-color:black;
+	border: 1px solid white;
+	border-radius: 5px;
+	color:white;
+}
+#knopn:hover{
+	background-color:rgb(255, 78, 78);
+	color: white;
+	border: 1px solid black;
+}
+/*-^--нет в наличии--^-*/
+.hr{
+	margin:0;
+	padding:4px;
+}
+.hr li{
+	display:inline;
+}
+.hr li form{
+	display: inline;
+}
+#hh{
+	margin:0;
+	padding:4px;
+}
+#hh li{
+	display:inline;
+}
+.grid img{
+	width:300px;
+	height:400px;
+	border-radius: 5px;
+}
+#lk{
+	width: 50px;
+}
+#lk:hover{
+	background-color: #F0F0F0;
+}
+footer{ /*--------- footer --------*/
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	
+}
+footer p{
+	color: white;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+/*---------------- Регистрация ---------------*/
+.reg{
+	height:100%;
+}
+.reg_body{
+	height: 1000px;
+}
+.outer{
+	width: 900px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+.inner {
+    position: absolute;
+    top: 25%;
+    margin-top: -0.625em;
+    /*border: 1px solid red;*/
+  }
+
+.inptpas{
+	margin: 0 auto;
+}
+.inptlog{
+	margin: 0 auto;
+	
+}
+#klog{
+	
+	background-color:white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#klog:hover{
+	background-color:black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#winvvod{
+	width: 175px;
+}
+#winvvod:hover{
+	
+}
+ /*-------------------- КОРЗИНА ---------------*/
+ .tovar{
+	width:900px;
+	height: 150px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px;
+ }
+.tovar img{
+	width: 115px;
+	float: left;
+	border-radius:5px;
+}
+.tovar h2{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+#but{
+	float:right;
+	margin-right: 15px;
+	height:50px;
+	width: 65px;
+	background-color:white;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+#but:hover{
+	border: 1px solid black;
+	background-color: rgb(255, 78, 78);
+	color: white;
+}
+#buy{
+	float:right;
+	margin-right: 15px;
+	height:50px;
+	width: 65px;
+	background-color:white;
+	border: 1px solid rgb(115, 243, 89);
+	border-radius: 5px;
+}
+.under_tovar{
+	width:900px;
+	height: 150px;
+	background-color: white;
+	border: 0px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px;
+ }
+#buy:hover{
+	border: 1px solid black;
+	background-color: rgb(115, 243, 89);
+	color: white;
+}
+/*-----------------Информация------------*/
+.str{
+	width:80%;
+	height: 100%;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px;
+}
+.str img{
+	width: 115px;
+	float: left;
+	border-radius:5px;
+}
+/*-------------информационная страница-------------*/
+#knopi{
+	float:right;
+	margin-right: 15px;
+	height:50px;
+	width: 65px;
+	background-color:white;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+#knopi:hover{
+	border: 1px solid black;
+	background-color: #56E539;
+	color: white;
+}
